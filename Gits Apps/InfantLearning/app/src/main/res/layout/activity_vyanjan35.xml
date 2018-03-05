@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan35">
+
+    <Button
+        android:id="@+id/button75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button76"
+        android:layout_alignBottom="@+id/button76"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button76"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button76"
+        android:layout_marginTop="13dp"
+        android:text="त्र"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button76"
+        android:layout_alignEnd="@+id/textView66"
+        android:layout_alignRight="@+id/textView66"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="त्रिशूल"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/trishul" />
+</RelativeLayout>

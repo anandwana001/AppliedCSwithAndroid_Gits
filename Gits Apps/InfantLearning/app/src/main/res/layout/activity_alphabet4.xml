@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet4">
+
+    <Button
+        android:id="@+id/button109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button109"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button110"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button110"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="19dp"
+        android:text="D d"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView53"
+        android:layout_alignEnd="@+id/textView101"
+        android:layout_alignRight="@+id/textView101"
+        android:layout_marginBottom="37dp"
+        android:text="Dog"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button109"
+        android:layout_marginBottom="12dp"
+        android:layout_toLeftOf="@+id/button110"
+        android:layout_toStartOf="@+id/button110"
+        app:srcCompat="@drawable/dog" />
+</RelativeLayout>

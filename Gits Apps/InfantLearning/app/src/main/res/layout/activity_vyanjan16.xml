@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan16">
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button35"
+        android:layout_alignBottom="@+id/button35"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button36"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button36"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="17dp"
+        android:text="त"
+        android:textSize="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button35"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/textView27"
+        android:layout_toStartOf="@+id/textView27"
+        app:srcCompat="@drawable/tarbuj" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button36"
+        android:layout_alignEnd="@+id/textView27"
+        android:layout_alignRight="@+id/textView27"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="तरबूज"
+        android:textSize="50dp" />
+
+</RelativeLayout>

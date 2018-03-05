@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Swar2">
+
+    <Button
+        android:id="@+id/button80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button80"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button81"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button81"
+        android:text="आ"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button81"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:text="आम"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView73"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView73"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/mango" />
+</RelativeLayout>

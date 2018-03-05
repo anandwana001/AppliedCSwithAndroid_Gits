@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet21">
+
+    <Button
+        android:id="@+id/button143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="19dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button143"
+        android:layout_marginRight="13dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button144"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button144"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="U u"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button144"
+        android:layout_alignEnd="@+id/button144"
+        android:layout_alignRight="@+id/button144"
+        android:layout_marginBottom="78dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Umbrella"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button143"
+        android:layout_alignLeft="@+id/button143"
+        android:layout_alignStart="@+id/button143"
+        android:layout_marginBottom="111dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        app:srcCompat="@drawable/chhata" />
+</RelativeLayout>

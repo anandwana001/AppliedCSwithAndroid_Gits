@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet11">
+
+    <Button
+        android:id="@+id/button123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="17dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button123"
+        android:layout_marginRight="15dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button124"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button124"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="27dp"
+        android:text="K k"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button124"
+        android:layout_alignEnd="@+id/imageView60"
+        android:layout_alignRight="@+id/imageView60"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:text="Kite"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView116"
+        android:layout_alignLeft="@+id/button123"
+        android:layout_alignStart="@+id/button123"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        app:srcCompat="@drawable/kite" />
+</RelativeLayout>

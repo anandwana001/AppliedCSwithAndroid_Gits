@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan19">
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:text="पिछला"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button45"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button46"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button46"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:text="ध"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button46"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34"
+        android:layout_marginBottom="69dp"
+        android:text="धनुष"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView34"
+        android:layout_toStartOf="@+id/textView34"
+        app:srcCompat="@drawable/dhanush" />
+</RelativeLayout>

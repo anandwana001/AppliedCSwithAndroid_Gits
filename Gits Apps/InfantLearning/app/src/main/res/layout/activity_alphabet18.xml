@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet18">
+
+    <Button
+        android:id="@+id/button137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="Previous"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/button138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button137"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Next"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView130"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView130"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="31dp"
+        android:text="R r"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button138"
+        android:layout_alignEnd="@+id/button138"
+        android:layout_alignRight="@+id/button138"
+        android:layout_marginBottom="59dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="Rose"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/button138"
+        android:layout_toStartOf="@+id/button138"
+        app:srcCompat="@drawable/rose" />
+</RelativeLayout>

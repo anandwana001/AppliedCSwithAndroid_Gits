@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan36">
+
+    <Button
+        android:id="@+id/button77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button77"
+        android:layout_alignEnd="@+id/textView69"
+        android:layout_alignRight="@+id/textView69"
+        android:layout_marginBottom="35dp"
+        android:text="ज्ञानी"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/button77"
+        android:layout_toRightOf="@+id/button77"
+        android:text="ज्ञ"
+        android:textSize="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView68"
+        android:layout_alignRight="@+id/textView68"
+        android:layout_alignTop="@+id/textView69"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/gyani" />
+</RelativeLayout>

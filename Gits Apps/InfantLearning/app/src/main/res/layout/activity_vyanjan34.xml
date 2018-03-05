@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan34">
+
+    <Button
+        android:id="@+id/button73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button73"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button74"
+        android:layout_alignRight="@+id/button74"
+        android:layout_alignTop="@+id/imageView35"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="क्ष"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView35"
+        android:layout_alignLeft="@+id/textView64"
+        android:layout_alignStart="@+id/textView64"
+        android:layout_marginBottom="26dp"
+        android:text="क्षत्रिय"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/button74"
+        android:layout_toStartOf="@+id/button74"
+        app:srcCompat="@drawable/kshatriya" />
+</RelativeLayout>

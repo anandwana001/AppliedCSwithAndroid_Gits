@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan11">
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button27"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button28"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button28"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="18dp"
+        android:text="ट"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="59dp"
+        android:text="टमाटर"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button27"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_toLeftOf="@+id/textView19"
+        android:layout_toStartOf="@+id/textView19"
+        app:srcCompat="@drawable/tomato" />
+</RelativeLayout>

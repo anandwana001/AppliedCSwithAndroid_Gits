@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan32">
+
+    <Button
+        android:id="@+id/button69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="19dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button69"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView61"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView61"
+        android:layout_marginTop="11dp"
+        android:text="स"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button70"
+        android:layout_alignEnd="@+id/button70"
+        android:layout_alignRight="@+id/button70"
+        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="सूरज"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button70"
+        android:layout_toStartOf="@+id/button70"
+        app:srcCompat="@drawable/sun" />
+</RelativeLayout>

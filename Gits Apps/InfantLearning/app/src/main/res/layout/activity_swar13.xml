@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Swar13">
+
+    <Button
+        android:id="@+id/button102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="ऋ"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button102"
+        android:layout_marginBottom="81dp"
+        android:layout_toEndOf="@+id/imageView49"
+        android:layout_toRightOf="@+id/imageView49"
+        android:text="ऋषि"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView94"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        app:srcCompat="@drawable/rishi" />
+</RelativeLayout>

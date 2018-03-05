@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#414745"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="College Name: " />
+
+            <Spinner
+                android:id="@+id/spinner_college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Name: " />
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Email: " />
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="Department: " />
+
+            <Spinner
+                android:id="@+id/spinner_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="Category: " />
+
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="Authority Name: " />
+
+            <Spinner
+                android:id="@+id/spinner_authority_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="Request Type: " />
+
+            <Spinner
+                android:id="@+id/spinner_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Message: " />
+
+            <EditText
+                android:id="@+id/edit_text_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Comments"
+                android:inputType="textMultiLine"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Attach file: " />
+
+            <Button
+                android:id="@+id/button_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00a0ac"
+                android:hint="Choose File"
+                android:padding="4dp"
+                android:onClick="onClick"
+                />
+            
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="4dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image_chosen"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="Submit"
+            android:onClick="submitOrder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="*Email and Name is confidential."
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Use of abusive words must be stricly prohibited"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</ScrollView>

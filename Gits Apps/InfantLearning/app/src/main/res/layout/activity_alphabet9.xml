@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet9">
+
+    <Button
+        android:id="@+id/button119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button119"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button120"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button120"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:text="I i"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button119"
+        android:layout_alignEnd="@+id/textView111"
+        android:layout_alignRight="@+id/textView111"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Ice cream"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView112"
+        android:layout_toLeftOf="@+id/button120"
+        android:layout_toStartOf="@+id/button120"
+        app:srcCompat="@drawable/icecream" />
+</RelativeLayout>

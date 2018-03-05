@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xx.disease.disease_predict.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+         />
+
+
+    <ListView
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="72dp"
+        android:layout_toStartOf="@+id/button2"
+        android:text="Clear symptom"
+        android:onClick="clear"
+        tools:layout_editor_absoluteX="712dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="62dp"
+        android:text="Predict disease"
+        tools:layout_editor_absoluteX="682dp"
+        tools:layout_editor_absoluteY="492dp"
+        android:onClick="Predict"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/images"
+        android:scaleType = "centerCrop"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Swar8">
+
+    <Button
+        android:id="@+id/button92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button92"
+        android:layout_alignBottom="@+id/button92"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button93"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button93"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="ऐ"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button93"
+        android:layout_marginBottom="34dp"
+        android:layout_toLeftOf="@+id/button93"
+        android:layout_toStartOf="@+id/button93"
+        android:text="ऐनक"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button92"
+        android:layout_alignEnd="@+id/textView84"
+        android:layout_alignRight="@+id/textView84"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        app:srcCompat="@drawable/ainak" />
+
+</RelativeLayout>

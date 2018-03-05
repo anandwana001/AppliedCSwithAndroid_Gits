@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet15">
+
+    <Button
+        android:id="@+id/button131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button131"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView124"
+        android:layout_alignLeft="@+id/textView124"
+        android:layout_alignStart="@+id/textView124"
+        android:layout_marginBottom="209dp"
+        android:text="O o"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button132"
+        android:layout_alignEnd="@+id/button132"
+        android:layout_alignRight="@+id/button132"
+        android:layout_marginBottom="53dp"
+        android:text="Orange"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button132"
+        android:layout_toStartOf="@+id/button132"
+        app:srcCompat="@drawable/orange" />
+
+</RelativeLayout>

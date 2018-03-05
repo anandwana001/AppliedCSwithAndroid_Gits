@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan22">
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="19dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button49"
+        android:layout_marginRight="11dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView41"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:text="फ"
+        android:textSize="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button49"
+        android:layout_alignStart="@+id/button49"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:src="@drawable/phal" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView22"
+        android:layout_toLeftOf="@+id/button50"
+        android:text="फल"
+        android:textSize="50dp"/>
+</RelativeLayout>

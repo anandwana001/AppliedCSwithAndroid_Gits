@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infantlearning.infantlearning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Choice" />
+        <activity android:name=".Hindi" />
+        <activity android:name=".Englishlang" />
+        <activity android:name=".Swar" />
+        <activity android:name=".Vyanjan" />
+        <activity android:name=".Vyanjan2" />
+        <activity android:name=".Vyanjan4" />
+        <activity android:name=".Vyanjan5" />
+        <activity android:name=".VyanjanThree" />
+        <activity android:name=".Vyanjan6" />
+        <activity android:name=".Vyanjan7" />
+        <activity android:name=".Vyanjan8" />
+        <activity android:name=".Vyanjan9" />
+        <activity android:name=".Vyanjan10" />
+        <activity android:name=".Vyanjan11" />
+        <activity android:name=".Vyanjan12" />
+        <activity android:name=".Vyanjan13" />
+        <activity android:name=".Vyanjan14" />
+        <activity android:name=".Alphabet1" />
+        <activity android:name=".Vyanjan15" />
+        <activity android:name=".Vyanjan16" />
+        <activity android:name=".Vyanjan17" />
+        <activity android:name=".Vyanjan18" />
+        <activity android:name=".Vyanjan19" />
+        <activity android:name=".Vyanjan20" />
+        <activity android:name=".Vyanjan21" />
+        <activity android:name=".Vyanjan22" />
+        <activity android:name=".Vyanjan23" />
+        <activity android:name=".Vyanjan24" />
+        <activity android:name=".Vyanjan25" />
+        <activity android:name=".Vyanjan26" />
+        <activity android:name=".Vyanjan27" />
+        <activity android:name=".Vyanjan28" />
+        <activity android:name=".Vyanjan29" />
+        <activity android:name=".Vyanjan30" />
+        <activity android:name=".Vyanjan31" />
+        <activity android:name=".Vyanjan32" />
+        <activity android:name=".Vyanjan33" />
+        <activity android:name=".Vyanjan34" />
+        <activity android:name=".Vyanjan35" />
+        <activity android:name=".Vyanjan36" />
+        <activity android:name=".Swar2" />
+        <activity android:name=".Swar3" />
+        <activity android:name=".Swar4" />
+        <activity android:name=".Swar5" />
+        <activity android:name=".Swar6" />
+        <activity android:name=".Swar7" />
+        <activity android:name=".Swar8" />
+        <activity android:name=".Swar9" />
+        <activity android:name=".Swar10" />
+        <activity android:name=".Swar11" />
+        <activity android:name=".Swar12" />
+        <activity android:name=".Swar13" />
+        <activity android:name=".Alphabet2" />
+        <activity android:name=".Alphabet3" />
+        <activity android:name=".Alphabet4" />
+        <activity android:name=".Alphabet5" />
+        <activity android:name=".Alphabet6" />
+        <activity android:name=".Alphabet7" />
+        <activity android:name=".Alphabet8" />
+        <activity android:name=".Alphabet9" />
+        <activity android:name=".Alphabet10" />
+        <activity android:name=".Alphabet11" />
+        <activity android:name=".Alphabet12" />
+        <activity android:name=".Alphabet13" />
+        <activity android:name=".Alphabet14" />
+        <activity android:name=".Alphabet15" />
+        <activity android:name=".Alphabet16" />
+        <activity android:name=".Alphabet17" />
+        <activity android:name=".Alphabet18" />
+        <activity android:name=".Alphabet19" />
+        <activity android:name=".Alphabet20" />
+        <activity android:name=".Alphabet21" />
+        <activity android:name=".Alphabet22" />
+        <activity android:name=".Alphabet23" />
+        <activity android:name=".Alphabet24" />
+        <activity android:name=".Alphabet25" />
+        <activity android:name=".Alphabet26"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Swar">
+
+
+    <Button
+        android:id="@+id/button78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="21dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button78"
+        android:layout_marginRight="15dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button79"
+        android:layout_alignRight="@+id/button79"
+        android:layout_alignTop="@+id/imageView38"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="अ"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView38"
+        android:layout_alignLeft="@+id/textView70"
+        android:layout_alignStart="@+id/textView70"
+        android:layout_marginBottom="36dp"
+        android:text="अनार"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/button79"
+        android:layout_toStartOf="@+id/button79"
+        app:srcCompat="@drawable/anar" />
+</RelativeLayout>

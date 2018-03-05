@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet20">
+
+    <Button
+        android:id="@+id/button141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="19dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button141"
+        android:layout_marginRight="20dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView69"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView69"
+        android:text="T t"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button141"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_toLeftOf="@+id/button142"
+        android:layout_toStartOf="@+id/button142"
+        android:text="Tiger"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button141"
+        android:layout_alignStart="@+id/button141"
+        android:layout_below="@+id/textView133"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/tiger" />
+</RelativeLayout>

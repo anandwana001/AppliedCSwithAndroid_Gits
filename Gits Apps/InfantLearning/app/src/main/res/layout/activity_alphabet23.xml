@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet23">
+
+    <Button
+        android:id="@+id/button147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button147"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Next"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView72"
+        android:layout_alignEnd="@+id/textView140"
+        android:layout_alignRight="@+id/textView140"
+        android:text="W w"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button148"
+        android:layout_alignEnd="@+id/button148"
+        android:layout_alignRight="@+id/button148"
+        android:layout_marginBottom="67dp"
+        android:text="Watch"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView140"
+        android:layout_alignLeft="@+id/button147"
+        android:layout_alignStart="@+id/button147"
+        android:layout_marginBottom="34dp"
+        app:srcCompat="@drawable/watch" />
+</RelativeLayout>

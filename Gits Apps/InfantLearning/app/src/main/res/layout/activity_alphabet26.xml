@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Alphabet26">
+
+    <Button
+        android:id="@+id/button153"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="Previous"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView74"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView74"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Z z"
+        android:textSize="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button153"
+        android:layout_alignStart="@+id/button153"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/zebra" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView74"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:text="Zebra"
+        android:textSize="50dp" />
+
+</RelativeLayout>

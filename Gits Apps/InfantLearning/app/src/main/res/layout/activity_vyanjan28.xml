@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan28">
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="21dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button61"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button62"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button62"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:text="ल"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button62"
+        android:layout_alignEnd="@+id/textView52"
+        android:layout_alignRight="@+id/textView52"
+        android:layout_marginBottom="38dp"
+        android:text="लट्टू"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button61"
+        android:layout_alignStart="@+id/button61"
+        android:layout_centerVertical="true"
+        android:src="@drawable/lattu" />
+</RelativeLayout>

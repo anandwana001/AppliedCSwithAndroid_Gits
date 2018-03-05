@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context="com.infantlearning.infantlearning.Choice">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="68dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="English"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="66dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:text="हिन्दी"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="218dp"
+        android:layout_height="284dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        app:srcCompat="@drawable/learning"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button154"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Back" />
+</RelativeLayout>

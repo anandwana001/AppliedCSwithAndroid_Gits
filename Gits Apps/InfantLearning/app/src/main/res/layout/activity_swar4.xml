@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Swar4">
+
+    <Button
+        android:id="@+id/button84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button84"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/textView77"
+        android:layout_toRightOf="@+id/textView77"
+        android:text="ई"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button85"
+        android:layout_marginBottom="78dp"
+        android:layout_toLeftOf="@+id/button85"
+        android:layout_toStartOf="@+id/button85"
+        android:text="ईख"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button84"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button84"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/eekh" />
+
+</RelativeLayout>

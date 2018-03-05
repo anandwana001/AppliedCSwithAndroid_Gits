@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        android:src="@drawable/frontcover" android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:contentDescription="Start app"
+        android:text="START"
+        android:textSize="20dp"
+        android:visibility="visible" />
+</RelativeLayout>

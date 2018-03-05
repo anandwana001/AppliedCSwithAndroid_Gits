@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Hindi">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="139dp"
+        android:text="स्वर"
+        android:textSize="32dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="125dp"
+        android:layout_height="66dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="19dp"
+        android:text="व्यंजन"
+        android:textSize="32dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="218dp"
+        android:layout_height="284dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button5"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/learning" />
+
+    <Button
+        android:id="@+id/button155"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="पिछला"
+        android:textSize="15dp"/>
+</RelativeLayout>

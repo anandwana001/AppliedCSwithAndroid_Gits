@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan8">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="17dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button22"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button22"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="ज"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button22"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_marginBottom="76dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="जहाज़"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignStart="@+id/button21"
+        android:layout_marginBottom="42dp"
+        app:srcCompat="@drawable/jahaz" />
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infantlearning.infantlearning.Vyanjan9">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="पिछला"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button23"
+        android:layout_alignBottom="@+id/button23"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:text="अगला"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button24"
+        android:layout_alignRight="@+id/button24"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:text="झ"
+        android:textSize="150dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button24"
+        android:layout_marginBottom="61dp"
+        android:layout_toLeftOf="@+id/button24"
+        android:layout_toStartOf="@+id/button24"
+        android:text="झंडा"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button23"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@+id/textView16"
+        android:layout_toStartOf="@+id/textView16"
+        app:srcCompat="@drawable/jhanda" />
+</RelativeLayout>
